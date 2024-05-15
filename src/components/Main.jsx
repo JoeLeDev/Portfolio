@@ -11,8 +11,8 @@ const Main = () => {
     <div>
       <Nav/>
       <Hero/>
-      <Project/>
       <Experience/>
+      <Project/>
       <Footer />
     </div>
   )

@@ -13,7 +13,9 @@ export default {
     },
     extend: {
       spacing: {
-        '7': '32rem'
+        '7': '32rem',
+        '17': '700px',
+        '27': '30rem',
       }
     },
   },
