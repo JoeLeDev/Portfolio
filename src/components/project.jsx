@@ -1,10 +1,15 @@
 import OnePiece from "../../assets/OnePiece.jpg";
 import Runner from "../../assets/Runner.jpg";
 import FocusList from "../../assets/FocusList.jpg";
+import SectionRefsContext from "../script/sectionRef";
+import { useContext } from "react";
 
 const Project = () => {
+
+    const { project } = useContext(SectionRefsContext)
+
   return (
-    <div className="bg-black p-32 xl:py-20 xl:px-27">
+    <div ref={project} className="bg-black p-32 xl:py-20 xl:px-27">
       <div className="text-center">
         <h1 className="text-5xl text-white my-10">Projets</h1>
       </div>

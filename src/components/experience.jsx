@@ -1,11 +1,17 @@
 import HETIC from "../../assets/hetic.webp";
 import UPEC from "../../assets/upec.webp";
 import ICC from "../../assets/ICC.png";
+import SectionRefsContext from "../script/sectionRef";
+import { useContext } from "react";
 
 const Experience = () => {
 
+
+  const { experience } = useContext(SectionRefsContext)
+
   return (
-<div className="bg-green-900 py-10">
+
+<div ref={experience} className="bg-green-900 py-10">
   <h1 className="text-5xl text-white my-10 text-center">
     Experience/Formation
   </h1>
@@ -14,6 +20,20 @@ const Experience = () => {
   <div className="flex flex-wrap justify-center items-center xl:flex-nowrap gap-10 xl:gap-7 py-10 px-5">
 
    
+    <div className="flex flex-col items-center text-center text-white">
+      <img src={UPEC} alt="UPEC Logo" className="w-52 h-48 rounded-lg" />
+      <div>
+        <h2 className="text-2xl mb-2 mt-4">UPEC</h2>
+        <ul className="list-disc list-inside">
+        <p className="py-3">2017</p>
+        <p className="py-3"> Langues étrangères appliquées</p>
+          <li className="text-left">Études des langues étrangères</li>
+          <li className="text-left">Approche interculturelle</li>
+          <li className="text-left">Formation de commerce international</li>
+        </ul>
+      </div>
+    </div>
+
     <div className="flex flex-col items-center text-center text-white">
       <img src={HETIC} alt="HETIC Logo" className="w-48 h-48 rounded-lg" />
       <div>
@@ -29,19 +49,6 @@ const Experience = () => {
     </div>
 
    
-    <div className="flex flex-col items-center text-center text-white">
-      <img src={UPEC} alt="UPEC Logo" className="w-52 h-48 rounded-lg" />
-      <div>
-        <h2 className="text-2xl mb-2 mt-4">UPEC</h2>
-        <ul className="list-disc list-inside">
-        <p className="py-3">2017</p>
-        <p className="py-3">Licence Langues étrangères appliquées</p>
-          <li className="text-left">Études approfondie des langues étrangères</li>
-          <li className="text-left">Approche interculturelle</li>
-          <li className="text-left">Formation de commerce international</li>
-        </ul>
-      </div>
-    </div>
 
     <div className="flex flex-col items-center text-center text-white">
       <img src={ICC} alt="ICC Logo" className="w-48 h-48 rounded-lg" />
