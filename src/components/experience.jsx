@@ -12,9 +12,7 @@ const Experience = () => {
   return (
 
 <div ref={experience} className="bg-green-900 py-10">
-  <h1 className="text-5xl text-white my-10 text-center">
-    Experience/Formation
-  </h1>
+  <h1 className="text-5xl  text-slate-300 my-10 text-center xl:text-6xl"> Experience/Formation</h1>
 
  
   <div className="flex flex-wrap justify-center items-center xl:flex-nowrap gap-10 xl:gap-7 py-10 px-5">

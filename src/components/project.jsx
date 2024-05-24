@@ -11,25 +11,25 @@ const Project = () => {
   return (
     <div ref={project} className="bg-black p-32 xl:py-20 xl:px-27">
       <div className="text-center">
-        <h1 className="text-5xl text-white my-10">Projets</h1>
+        <h1 className="text-5xl  text-slate-300 my-10 xl:text-6xl">Projets</h1>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-5">
         {/* One Piece Guessing Game Card */}
         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse">
-          <div className="flex flex-col sm:flex-collumn lg:flex-row justify-between">
+          <div className="flex flex-col sm:flex-collumn lg:flex-row justify-between sm:text-base">
             <div className="p-8">
               <div className="uppercase tracking-wide text-sm text-black font-semibold">
                 One Piece Guessing Game
               </div>
-              <p className="mt-2 text-slate-500 lg:text-xl xl:text-2xl">
+              <p className="mt-2 text-slate-500 lg:text-xl xl:text-2xl ssm:text-xl">
                 Le projet « Guess the Pirate: One Piece Challenge » est une
                 autre réalisation captivante qui met en évidence mes compétences
                 en développement web. Ce jeu de devinette est basé sur l’univers
                 de « One Piece », une série manga populaire. Dans ce jeu, les
                 joueurs doivent deviner le nom du personnage affiché à l’écran
                 en saisissant leur réponse dans un champ de texte à l’image d’un
-                pendu avec un nombre de chance au nombre desept. J’ai développé
+                pendu avec un nombre de chance au nombre de sept. J’ai développé
                 ce projet en utilisant les langages HTML, CSS et JavaScript,
                 démontrant ainsi ma maîtrise de ces technologies front-end et
                 liant ma passion pour le manga avec mon futur métier.
@@ -49,12 +49,12 @@ const Project = () => {
 
         {/* Focus List Card */}
         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse">
-          <div className="flex flex-col sm:flex-collumn lg:flex-row justify-between">
+          <div className="flex flex-col sm:flex-collumn lg:flex-row justify-between sm:text-base">
             <div className="p-8">
               <div className="uppercase tracking-wide text-sm text-black font-semibold">
                 Focus List
               </div>
-              <p className="mt-2 text-slate-500 lg:text-xl xl:text-2xl">
+              <p className="mt-2 text-slate-500 lg:text-xl xl:text-2xl ssm:text-xl">
                 "FocusList" est une application de gestion de tâches conçue pour
                 améliorer la productivité et l'organisation quotidienne.
                 Développée avec React, cette application permet aux utilisateurs
@@ -78,12 +78,12 @@ const Project = () => {
 
         {/* RunnerJS Card */}
         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse">
-          <div className="flex flex-col sm:flex-collumn lg:flex-row justify-between">
+          <div className="flex flex-col sm:flex-collumn lg:flex-row justify-between sm:text-base">
             <div className="p-8">
               <div className="uppercase tracking-wide text-sm text-black font-semibold">
                 RunnerJs
               </div>
-              <p className="mt-2 text-slate-500 lg:text-xl xl:text-2xl">
+              <p className="mt-2 text-slate-500 lg:text-xl xl:text-2xl ssm:text-xl">
                 « RunnerJS » est un jeu de plateforme interactif que j’ai
                 développé en utilisant les langages HTML, CSS et JavaScript.{" "}
                 <br />

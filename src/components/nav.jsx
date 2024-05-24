@@ -25,7 +25,7 @@ const Nav = () => {
 
   return (
     <div className="flex flex-col">
-      <div className="flex items-center justify-between p-6 bg-black">
+      <div className="flex items-center justify-between p-4 bg-black">
         <a href="#" className="text-green-600 font-mono text-3xl tracking-wider flex items-center">
           <img src={JoeLogo} alt="Joe Logo" width={100} />
         </a>
